@@ -10,25 +10,53 @@
    <style>
 
     /* Add these styles in order */
-     
+     h2 {
+      text-align:center;
+     }
     /* Center the title "High Factor Times Tables */
-
+     ol{
+      text-align:left;
+     }
     /* Left-align each of the equations */
+   li {
+      display:inline-block;
+    
+    }
 
     /* Display each table in a row with inline-block */
-    
+   #timestables {
+    border:2px solid black;
+    border-radius:20px;
+    }
+    #tables ol {
+    border:2px solid black;
+    border-radius:20px;
+    }
     /* Put a rounded 2px black border box around all tables */
-    
+    h4 {
+     border-bottom:2px solid red;
+    }
     /* underline the top numbers red */
-    
+    li ol:hover {
+     color:white;
+     background-color:black;
+    }
     /* go night mode on hovers over each timestable, but not the parent  */
-  
+    ol li ol{
+      margin-bottom:20px;
+    }
     /* 20 px space below the last equation in each table */
-
+     ol {
+      margin-top:20px;
+     }
     /* add a top margin of 20px on each table, but not the parent */
-
+    li ol li{
+  text-align:left;
+    } 
      /* subtract 20px from left margins of each child table, add it to the right margins */
-
+      #tables {
+        text-align:center;
+      }
     /* put 25px padding at the bottom of the parent  */
 
    </style>

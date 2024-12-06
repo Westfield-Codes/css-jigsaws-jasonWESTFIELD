@@ -15,19 +15,31 @@
 
         /* hide the in/out messages*/
         p {
-         opacity:0;
+         filter:opacity(0);
+         transition:0.5s;
         }
 
+
         /* grayscale filter the out images */
-        
+        .out {
+         filter:grayscale();
+        }
         
         /* hover states section (no css here) */
-
+        .container:hover{
+         filter:opacity(50%);
+        }
+        .container{
+         transition:0.5s;
+         filter:opacity(100%);
+        }
         /* gray-out the images */
   
         
         /* show the status message */
-  
+       p:hover {
+         filter:opacity(100%);
+       }
 
       </style>
    </head>

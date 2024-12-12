@@ -9,18 +9,33 @@
   <link href = "../style.css" rel = "stylesheet" type = "text/css" />
    <style>
 
-    /* Add these styles in order */
-     h2 {
+      /* Add these styles in order */
+      h2 {
       text-align:center;
      }
     /* Center the title "High Factor Times Tables */
+     ol{
+      text-align:left;
+     }
+    /* Left-align each of the equations */
+   li {
+      display:inline-block;
+    
+    }
 
     /* Display each table in a row with inline-block */
-    
-    /* Put a rounded (20px) solid black border box around the timestables div */
-
-    /* Put a rounded (10px) solid black border box around EACH times table */
-    
+   #timestables {
+    border:2px solid black;
+    border-radius:20px;
+    }
+    #tables ol {
+    border:2px solid black;
+    border-radius:20px;
+    }
+    /* Put a rounded 2px black border box around all tables */
+    h4 {
+     border-bottom:2px solid red;
+    }
     /* underline the top numbers red */
     li ol:hover {
      color:white;
@@ -43,6 +58,7 @@
         text-align:center;
       }
     /* put 25px padding at the bottom of the parent  */
+
 
    </style>
 </head>
